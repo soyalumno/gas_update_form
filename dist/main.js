@@ -12,10 +12,6 @@ function main() {
   SpreadsheetApp.getUi().showModalDialog(html, 'ローカルファイル読込');
 }
 
-function onSubmit(tmp) {
-  console.log(tmp);
-}
-
 function writeSheet(fileObj) {
   console.log('writeSheet');
   Browser.msgBox("OK");
